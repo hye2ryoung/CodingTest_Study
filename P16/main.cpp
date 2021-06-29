@@ -1,5 +1,5 @@
 
-#include <stdlib.h>//exit(0) 프로그램 종료 사용
+#include <algorithm>//exit(0) 프로그램 종료 사용
 #include <stdio.h>
 //'A' ~ 'Z' : 65 ~90
 //'a' ~ 'z' : 97 ~ 122
