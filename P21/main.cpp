@@ -41,11 +41,11 @@ int main(int argc, const char * argv[]) {
     if(acnt==bcnt)//점수가 같을 경우
     {
         if(win==1)
-            printf("A\n");
+            printf("A\n"); //마지막 승자 A
         else if(win==2)
-            printf("B\n");
+            printf("B\n"); //마지막 승자 B
         else
-            printf("D\n");
+            printf("D\n"); //모든 라운드에서 비긴 경우 무승부 D
     }
     else if(acnt>bcnt) printf("A\n");
     else printf("B\n");
