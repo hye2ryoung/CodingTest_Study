@@ -17,7 +17,7 @@ int main(int argc, const char * argv[]) {
     for(i=2;i<=n;i++)//소인수분해
     {
         tmp = i; //i를 쪼개야하므로 tmp에 저장해서 진행
-        j=2; //가장 작은 소수 2부터
+        j=2; //가장 작은 소수 2부터(초기화)
         while(1)
         {
             if(tmp%j==0){//만약 tmp가 j로나누어떨어지면
