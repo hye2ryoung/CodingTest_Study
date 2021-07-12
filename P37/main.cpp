@@ -7,7 +7,7 @@
 //
 
 #include <stdio.h>
-
+//삽입정렬 코드스타일
 int main(int argc, const char * argv[]) {
     int s, n, i, j, a, b[10], pos;
     //s캐시의크기 n작업의개수
