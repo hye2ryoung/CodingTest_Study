@@ -23,12 +23,12 @@ int Count(int size){//size: dvd용량(한개당)
 }
 
 int main(int argc, const char * argv[]) {
-    int m, i, lt=1, rt=0, mid, res, max=-2147000000;
+    int m, i, lt=1, rt=0, mid, res, max=-2147000000;//m:dvd개수
     scanf("%d %d",&n, &m);
     for(i=1;i<=n;i++){
         scanf("%d", &a[i]);
         rt=rt+a[i];//rt에 다음 값 누적
-        if(a[i]>max) max=a[i]; //dvd용량이 최소한 곡 리스트 하나씩은 담을 수 잇어야 하므로 곡 용량의 최댓값 max를 설정해주어 dvd용량이 max값보다는 크거나 같아야 함을 명시해줄것이다.
+        if(a[i]>max) max=a[i]; //dvd용량이 최소한 곡 리스트 하나씩은 담을 수 잇어야 하므로, 하나의 곡 용량의 최댓값 max를 설정해주어 dvd용량이 max값보다는 크거나 같아야 함을 명시해줄것이다.
     }
     while(lt<=rt){
         mid=(lt+rt)/2;
