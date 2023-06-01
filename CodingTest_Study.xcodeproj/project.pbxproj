@@ -737,7 +737,6 @@
 		0E70E8F627DA0DBC00D969DA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		0E70E8FB27DA120F00D969DA /* 스크린샷 2022-03-10 오후 8.01.17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "스크린샷 2022-03-10 오후 8.01.17.png"; sourceTree = "<group>"; };
 		0E7B34BF269878D500C91298 /* 스크린샷 2021-07-09 오후 9.29.57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "스크린샷 2021-07-09 오후 9.29.57.png"; sourceTree = "<group>"; };
-		0E7B34C0269878DD00C91298 /* 스크린샷 2021-07-09 오후 9.29.35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "스크린샷 2021-07-09 오후 9.29.35.png"; sourceTree = "<group>"; };
 		0E7B34C1269878F900C91298 /* 스크린샷 2021-07-09 오후 9.30.34.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "스크린샷 2021-07-09 오후 9.30.34.png"; sourceTree = "<group>"; };
 		0E7B34C22698791000C91298 /* 스크린샷 2021-07-09 오후 9.31.00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "스크린샷 2021-07-09 오후 9.31.00.png"; sourceTree = "<group>"; };
 		0E7B34C32698792400C91298 /* 스크린샷 2021-07-09 오후 9.31.21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "스크린샷 2021-07-09 오후 9.31.21.png"; sourceTree = "<group>"; };
@@ -792,6 +791,8 @@
 		0E7B3536269DAC5800C91298 /* 스크린샷 2021-07-13 오후 8.11.10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "스크린샷 2021-07-13 오후 8.11.10.png"; sourceTree = "<group>"; };
 		0E7B353B26AB806B00C91298 /* P45 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = P45; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E7B353D26AB806B00C91298 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0E96CAC92A28471F00FB7ACB /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		0E96CACA2A28475500FB7ACB /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 		0EA256FB2681DA5E00D785B8 /* P1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = P1; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EA256FD2681DA5E00D785B8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		0EA257062681DA9E00D785B8 /* P2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = P2; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -854,7 +855,6 @@
 		0EA25864268DDE0700D785B8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		0EA2586E26923B1300D785B8 /* P29 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = P29; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EA2587026923B1300D785B8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		0EA258762692455700D785B8 /* 스크린샷 2021-07-05 오전 4.35.46.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "스크린샷 2021-07-05 오전 4.35.46.png"; sourceTree = "<group>"; };
 		0EA2589126924CBC00D785B8 /* P30 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = P30; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EA2589326924CBC00D785B8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		0EA2589D2693992A00D785B8 /* P31 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = P31; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1703,7 +1703,7 @@
 		0EA256FC2681DA5E00D785B8 /* P1 */ = {
 			isa = PBXGroup;
 			children = (
-				0EA258762692455700D785B8 /* 스크린샷 2021-07-05 오전 4.35.46.png */,
+				0E96CAC92A28471F00FB7ACB /* 1.png */,
 				0EA256FD2681DA5E00D785B8 /* main.cpp */,
 			);
 			path = P1;
@@ -1712,7 +1712,7 @@
 		0EA257072681DA9E00D785B8 /* P2 */ = {
 			isa = PBXGroup;
 			children = (
-				0E7B34C0269878DD00C91298 /* 스크린샷 2021-07-09 오후 9.29.35.png */,
+				0E96CACA2A28475500FB7ACB /* 2.png */,
 				0EA257082681DA9E00D785B8 /* main.cpp */,
 			);
 			path = P2;
