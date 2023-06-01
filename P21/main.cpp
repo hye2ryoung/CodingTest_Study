@@ -9,7 +9,6 @@
 #include <stdio.h>
 
 int main(int argc, const char * argv[]) {
-   
     int i, a[10], b[10], win=0, acnt=0, bcnt=0;
     for(i=0;i<10;i++)
     {
@@ -51,4 +50,5 @@ int main(int argc, const char * argv[]) {
     else printf("B\n");
     
     return 0;
+   
 }

@@ -7,7 +7,7 @@
 //
 
 #include <stdio.h>
-
+/*
 int main(int argc, const char * argv[]) {
     int n, i, a[101], max, cnt=0;
     scanf("%d", &n);
@@ -22,5 +22,23 @@ int main(int argc, const char * argv[]) {
         }
     }
     printf("%d",cnt);
+    return 0;
+}
+ */
+
+int main(int argc, const char * argv[]) {
+    int i, n, max=-2147000000, a[101], cnt=0;
+    scanf("%d", &n);
+    for(i=1; i<=n; i++){
+        scanf("%d", &a[i]);
+    }
+    max = a[n];
+    for(i=n-1; i>=1; i--){
+        if(a[i] > max){
+            max = a[i];
+            cnt++;
+        }
+    }
+    printf("%d", cnt);
     return 0;
 }

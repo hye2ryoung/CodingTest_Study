@@ -20,6 +20,5 @@ int main(int argc, const char * argv[]) {
         if(a<min) min=a;
     }
     cout<<max-min;
-    
     return 0;
 }

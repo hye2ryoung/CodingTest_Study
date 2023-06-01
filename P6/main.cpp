@@ -9,6 +9,7 @@
 #include <stdio.h>
 
 int main(int argc, const char * argv[]) {
+    
     char a[100];
     int res = 0, cnt = 0, i;
     scanf("%s", a);
@@ -33,4 +34,5 @@ int main(int argc, const char * argv[]) {
     
     
     return 0;
+    
 }

@@ -7,7 +7,7 @@
 //
 
 #include <stdio.h>
-
+/*
 int main(int argc, const char * argv[]) {
     int n, i, j, num, sum, res;
     scanf("%d", &n);
@@ -26,3 +26,27 @@ int main(int argc, const char * argv[]) {
     }
     return 0;
 }
+*/
+int main(int argc, const char * argv[]) {
+    int n, i, j, res, num;
+    scanf("%d", &n);
+    char ans[n];
+    for(i=0; i<n; i++){
+        int sum=0;
+        scanf("%d %d", &num, &res);
+        for(j=1; j<=num; j++){
+            sum=sum+j;
+        }
+        if(sum==res){
+            ans[i]=1;
+        }
+    }
+    for(i=0; i<n; i++){
+        if(ans[i]==1)
+            printf("YES\n");
+        else
+            printf("NO\n");
+    }
+    return 0;
+}
+ 

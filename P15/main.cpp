@@ -9,7 +9,6 @@
 #include <stdio.h>
 
 int main(int argc, const char * argv[]) {
-    
     int i, j, n, cnt=0, flag=0;
     scanf("%d", &n);
     for(i=2; i<=n; i++) //i : 2~n
@@ -28,4 +27,5 @@ int main(int argc, const char * argv[]) {
     printf("%d",cnt);
     
     return 0;
+   
 }

@@ -10,7 +10,6 @@
 
 using namespace std;
 int main(int argc, const char * argv[]) {
-    
     int n, m, i, sum=0;
     cin>>n>>m; //n과 m 차례대로 입력
     for(i=1; i<=n; i++)
@@ -22,4 +21,5 @@ int main(int argc, const char * argv[]) {
     }
     cout<<sum; //답을 출력
     return 0;
+    
 }
