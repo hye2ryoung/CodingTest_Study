@@ -25,6 +25,5 @@ int main(int argc, const char * argv[]) {
     
     if(a[7]=='1' || a[7]=='3') printf("M\n");
     else if(a[7]=='2' || a[7]=='4') printf("W\n");
-    
     return 0;
 }

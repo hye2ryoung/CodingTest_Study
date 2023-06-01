@@ -25,6 +25,6 @@ int main(int argc, const char * argv[]) {
         printf("-1");//최대 연속값이 0이면 경보음이 안울렸다는 뜻
     else
         printf("%d", max);//최대 연속값 출력
-
+    
     return 0;
 }

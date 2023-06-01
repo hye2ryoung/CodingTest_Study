@@ -50,5 +50,4 @@ int main(int argc, const char * argv[]) {
     else printf("B\n");
     
     return 0;
-   
 }

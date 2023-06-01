@@ -19,6 +19,5 @@ int main(int argc, const char * argv[]) {
     }
     cout<<b<<" = ";
     cout<<sum+b;
-    
     return 0;
 }

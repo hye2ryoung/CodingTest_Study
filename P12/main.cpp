@@ -33,5 +33,4 @@ int main(int argc, const char * argv[]) {
     res=res+((n-sum)*cnt);//결과값은 ( 입력값 자리수 아래단계까지의 숫자의 총 개수 + (입력값 - 입력값보다 아래단계까지의 누적 자리수 개수) * 입력값 자리수 개수)
     printf("%d",res);
     return 0;
-    
 }

@@ -21,5 +21,4 @@ int main(int argc, const char * argv[]) {
     }
     cout<<sum; //답을 출력
     return 0;
-    
 }

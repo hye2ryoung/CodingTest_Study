@@ -33,6 +33,5 @@ int main(int argc, const char * argv[]) {
     }
     b[p] = '\0'; //p가 문자열이끝난 그 다음위치에 있으므로 '\0'을 넣어준다(null문자)
     printf("%s\n", b); //공백이 아닌 소문자만 출력
-    
     return 0;
 }

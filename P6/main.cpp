@@ -32,7 +32,6 @@ int main(int argc, const char * argv[]) {
     }
     printf("%d\n",cnt);
     
-    
     return 0;
     
 }

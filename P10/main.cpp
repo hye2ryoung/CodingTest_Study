@@ -40,7 +40,6 @@ int main(int argc, const char * argv[]) {
     }
     printf("%d",res);
     
-    
     return 0;
 }
 

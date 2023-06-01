@@ -21,4 +21,5 @@ int main(int argc, const char * argv[]) {
     }
     cout<<max-min;
     return 0;
+    
 }
