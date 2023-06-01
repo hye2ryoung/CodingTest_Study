@@ -9,10 +9,11 @@
 #include <stdio.h>
 #include <vector>
 #include <algorithm>
+using namespace std;
 int main(int argc, const char * argv[]) {
     int n, i, pre, now, pos;
     scanf("%d", &n);
-    std::vector<int> ch(n); //1~n-1값을 배열의 인덱스번호화 해서 체크
+    vector<int> ch(n); //1~n-1값을 배열의 인덱스번호화 해서 check
     scanf("%d", &pre);
     for(i=1; i<n; i++)
     {
@@ -30,7 +31,6 @@ int main(int argc, const char * argv[]) {
     }
     printf("YES\n");
     //프로그램이 종료되지 않고 조건문을 통과해서 for문을 빠져나왔다면 jolly jump(YES)
-    
     
     return 0;
 }

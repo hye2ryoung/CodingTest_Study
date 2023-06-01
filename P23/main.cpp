@@ -5,14 +5,14 @@
 //  Created by hyeryoung on 2021/06/30.
 //  Copyright © 2021 hyeryoung. All rights reserved.
 //
-
+/*
 #include <stdio.h>
 #include <vector>
 int main(int argc, const char * argv[]) {
     int n, i, len=1, max=-2147000000;
     scanf("%d", &n);
-    std::vector<int> a(n);
-    
+    vector<int> a(n);
+    cout << n;
     for(i=0; i<n; i++)
     {
         scanf("%d", &a[i]);
@@ -26,28 +26,29 @@ int main(int argc, const char * argv[]) {
     }
     printf("%d\n", max);
     return 0;
-}
+     
+}*/
 
 //pre,now를 이용한 풀이
-/*
- #include<stdio.h>
- int main(){
-     freopen("input.txt", "rt", stdin);
-     int n, i, pre, now, cnt, max;
-     scanf("%d", &n);
-     scanf("%d", &pre);
-     cnt=1;
-     max=1;
-     for(i=2; i<=n; i++){
-         scanf("%d", &now);
-         if(now>=pre){
-             cnt++;
-             if(cnt>max) max=cnt;
-         }
-         else cnt=1;
-         pre=now;
-     }
-     printf("%d\n", max);
-     return 0;
+
+#include <stdio.h>
+int main(){
+    int n, i, pre, now, cnt, max;
+    scanf("%d", &n);
+    scanf("%d", &pre);
+    cnt=1;//길이
+    max=1;
+    for(i=2; i<=n; i++){
+        scanf("%d", &now);
+        if(now>=pre){//현재값이 이전값보다 크거나같으면
+            cnt++;//길이++
+            if(cnt>max) max=cnt;//최댓값 확인해서 저장
+        }
+        else cnt=1; //아니라면 길이 다시 1로 초기화
+        pre=now;//현재값을 이전값으로 지정하고 다시 for문으로 돌아가 그다음값과 이전값을 비교
+    }
+    printf("%d\n", max);
+    return 0;
  }
- */
+ 
+ 
