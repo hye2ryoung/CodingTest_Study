@@ -8,10 +8,11 @@
 
 #include <stdio.h>
 #include <vector>
+using namespace std;
 int main(int argc, const char * argv[]) {
     int n, i, j, res;
     scanf("%d", &n);
-    std::vector<int> a(n);
+    vector<int> a(n);
     
     for(i=0; i<n; i++)
     {
@@ -28,4 +29,5 @@ int main(int argc, const char * argv[]) {
         printf("%d ", res); //맨처음 값을 제외한 카운팅된 등수 출력
     }
     return 0;
+    
 }

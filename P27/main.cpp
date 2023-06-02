@@ -8,11 +8,11 @@
 
 #include <stdio.h>
 #include <vector>
-
+using namespace std;
 int main(int argc, const char * argv[]) {
     int i, j, n, tmp;
     scanf("%d", &n);
-    std::vector<int> ch(n+1); //소수를 카운팅하는 check박스 생성
+    vector<int> ch(n+1); //소수를 카운팅하는 check박스 생성
     
     for(i=2;i<=n;i++)//소인수분해
     {
@@ -37,7 +37,5 @@ int main(int argc, const char * argv[]) {
             printf("%d ", ch[i]);
     }
 
-   
-    
     return 0;
 }

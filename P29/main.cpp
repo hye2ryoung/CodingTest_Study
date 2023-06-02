@@ -8,7 +8,6 @@
 
 #include <stdio.h>
 int main(int argc, const char * argv[]) {
-    
     int n, i, tmp, cnt=0, res;
     scanf("%d",&n);
     
@@ -24,4 +23,5 @@ int main(int argc, const char * argv[]) {
     }
     printf("%d",cnt);
     return 0;
+    
 }
