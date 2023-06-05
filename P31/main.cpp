@@ -9,6 +9,7 @@
 #include <stdio.h>
 
 int main(int argc, const char * argv[]) {
+
     char a[10];
     int c=0, h=0, i, pos; //c(C개수) h(H개수) pos(H의위치)
     scanf("%s", &a);
@@ -32,4 +33,5 @@ int main(int argc, const char * argv[]) {
     }
     printf("%d\n", c*12+h); //총 질량 구하기
     return 0;
+    
 }

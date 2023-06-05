@@ -9,6 +9,7 @@
 #include <stdio.h>
 //선택정렬 응용 
 int main(int argc, const char * argv[]) {
+    
     int n, a[101], i, j, idx, tmp, cnt=0;
     scanf("%d", &n);
     for(i=0; i<n; i++){
@@ -33,4 +34,5 @@ int main(int argc, const char * argv[]) {
     }
     
     return 0;
+    
 }

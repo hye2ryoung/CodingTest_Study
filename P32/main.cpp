@@ -12,6 +12,7 @@
 //두번째 자료와 [세번째~마지막 자료]를 비교하여 최소값을 두번째에 놓고
 //세번째 자료...
 int main(int argc, const char * argv[]) {
+    
     int n, a[100], i, j, tmp, idx;
     scanf("%d", &n);
     for(i=0; i<n; i++){
@@ -35,4 +36,5 @@ int main(int argc, const char * argv[]) {
         printf("%d ", a[i]);
     }
     return 0;
+    
 }
