@@ -38,10 +38,12 @@ int main(int argc, const char * argv[]) {
             printf("%d ", b[i]);
         }printf("\n");
          */
+         
     }
     for(i=0; i<s; i++){
         printf("%d ", b[i]);
     }
     
     return 0;
+    
 }
