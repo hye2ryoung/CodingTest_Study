@@ -8,12 +8,14 @@
 
 #include <stdio.h>
 #include <vector>
+using namespace std;
 //삽입정렬 코드스타일
 int main(int argc, const char * argv[]) {
     int i, j, pos, n;
     scanf("%d", &n);
-    std::vector<int> a(n+1), b(n+1);
+    vector<int> a(n+1), b(n+1);
     //a배열(Inversion Sequence) ex) 5 3 4 0 2 1 1 0
+    //b배열 original Sequence
     for(i=1; i<=n; i++){
         scanf("%d", &a[i]);
     }
@@ -29,4 +31,5 @@ int main(int argc, const char * argv[]) {
         printf("%d ",b[i]);//예시입력값의 결과값 4 8 6 2 5 1 3 7
     }
     return 0;
+    
 }
