@@ -10,6 +10,7 @@
 #include <algorithm>
 using namespace std;
 //이분검색 응용 : 결정 알고리즘
+
 int n;//n : 마구간 수
 int Count(int len, int xi[]){//len:좌표 간의거리와 비교할 지정값, xi배열:마구간 좌표를 가지는 배열
     int i, cnt=1, pos=xi[1];
