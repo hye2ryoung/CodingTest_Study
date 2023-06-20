@@ -14,6 +14,7 @@ int main(int argc, const char * argv[]) {
     int n, k, i, pos=0, cnt=0, sum=0;
     scanf("%d", &n);//작업 n개
     vector<int> a(n+1);
+    
     for(i=1;i<=n;i++){
         scanf("%d", &a[i]); //각 작업 소요시간 입력
         sum = sum + a[i]; //누적 소요시간 sum
