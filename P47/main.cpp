@@ -39,4 +39,5 @@ int main(int argc, const char * argv[]) {
     printf("%d\n",cnt);//카운팅된 봉우리 개수 출력
     
     return 0;
+ 
 }
