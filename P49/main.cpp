@@ -12,11 +12,12 @@ using namespace std;
 //블록의 최댓값
 
 //ex)
-//         3
-//         2
-//         1
-//         1
-// 2 0 3 1
+//    (1 2 3 4)
+// (1)         3
+// (2)         2
+// (3)         1
+// (4)         1
+//     2 0 3 1
 
 int a[11][11], b[11];
 int main(int argc, const char * argv[]) {
@@ -27,7 +28,7 @@ int main(int argc, const char * argv[]) {
     for(i=1; i<=n; i++){
         for(j=1; j<=n; j++){
             a[j][i]=b[i]; //열을 i로 뒀으므로 a[j][i]의 순서
-            //열을 고정한상태에서 각각의 행에 2, 다음 열에 0, 다음 3, 다음 1을 n개씩 채운다.
+            //열을 고정한상태에서 각각의 행에 2, 다음 행에 0, 다음 3, 다음 1을 n개씩 채운다.
             //2차원 배열을 채운 다음 오른쪽측면 정보와 비교해나간다.
         }
     }
@@ -46,6 +47,8 @@ int main(int argc, const char * argv[]) {
         }
     }
     printf("%d\n", sum);
-    
+  
     return 0;
 }
+
+
