@@ -43,5 +43,7 @@ int main(int argc, const char * argv[]) {
         }
     }
     printf("%d\n", max);
+     
     return 0;
+    
 }
