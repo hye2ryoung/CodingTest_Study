@@ -31,5 +31,7 @@ int main(int argc, const char * argv[]) {
         a[i]=min;//비교가 끝난 해당 최소값을 a배열의 i번째 순서에 채운다
     }
     printf("%d\n",a[n]);//n번째 Ugly Number를 출력
+     
     return 0;
+    
 }
