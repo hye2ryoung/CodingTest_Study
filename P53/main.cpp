@@ -11,8 +11,6 @@
 #include <algorithm>
 #include <stack>
 using namespace std;
-//K진수 출력
-
 /*
 //stack(후입선출)
 int stack[100], top=-1;//스택의 맨 위 지점 top을 -1로 초기화시켜준다
@@ -24,8 +22,9 @@ int pop(){
     return stack[top--];//스택 맨 위 지점 값을 뽑아내고 가리키고있던 위치에서 밑으로 --해준다
 }
 */
-
+//K진수 출력
 int main(int argc, const char * argv[]) {
+    
     int n, k;
     stack<int> s;//스택 s 생성
     char str[20]="0123456789ABCDEF";
@@ -43,6 +42,5 @@ int main(int argc, const char * argv[]) {
         
         //stack을 pop해서 나온 값에 해당되는 str배열의 인덱스값을 출력한다. (ex. 31을 16진수로 나타낼때 stack에 15, 1이 쌓이므로 1,15 순서로 pop하게되면 str배열의 1, 15번째 인 1과 F가 출력된다.)
     }
-    
     return 0;
 }
