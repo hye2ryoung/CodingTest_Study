@@ -36,22 +36,26 @@ int main(int argc, const char * argv[]) {
  // stack에 (를 push하고 )를만나면 pop하면서 한 쌍을 그때그때 비운다.
  // 문자열을 모두 입력했을 때 stack이 비어있다면 YES 출력
  // )차례여서 pop을 하려는데 stack이 이미 비워져 있는 경우 예외처리(NO출력)
+ // flag로 (()))(와 같은 예외를 처리
+ // 1. stack이 비워져있는데 )를 만났을 경우 break로 강제종료할 경우에는 flag가0인 경우와
+ // 2. for문을 돌고나서 정상적으로 종료 되었을때 stack이 비워져있지 않을 경우 flagr가 1인 경우를 나누어 NO를 출력한다
  int main(){
      stack<char> s;
      char a[30];
-     int i;
+     int i, flag=1;
      scanf("%s",a);
      for(i=0;a[i]!='\0';i++){
         if(a[i]=='(') s.push(a[i]);
         else{
             if(s.empty()){
                 printf("NO\n");
+                flag=0;
                 break;
             }
             else s.pop()
      }
-     if(s.empty()) printf("YES\n");
-     else printf("NO\n");
+     if(s.empty() && flag==1) printf("YES\n");
+     else if(!s.empty() && flag==1)printf("NO\n");
      return 0;
  }
  */
