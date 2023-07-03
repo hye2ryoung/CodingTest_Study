@@ -36,6 +36,6 @@ int main(int argc, const char * argv[]) {
             printf("%c", str[i]);//문자열이아니고 문자하나씩 for문돌면서 찍어내는것이기 때문에 %c
         }
     }
-    
     return 0;
+   
 }

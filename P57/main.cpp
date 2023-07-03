@@ -15,7 +15,6 @@ void D(int x){
         printf("%d", x%2);
     }
 }
-
 int main(int argc, const char * argv[]) {
     int n;
     scanf("%d", &n);

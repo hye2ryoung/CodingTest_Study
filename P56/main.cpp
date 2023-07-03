@@ -15,7 +15,6 @@ void recur(int x){
         printf("%d ", x);
     }
 }
-
 int main(int argc, const char * argv[]) {
     int n;
     scanf("%d", &n);
