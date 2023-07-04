@@ -8,7 +8,6 @@
 
 #include <stdio.h>
 //이진트리 깊이우선탐색(DFS:Depth First Serch)
-
 void D(int v){
     if(v>7) return; //1부터 7까지의 node로 이루어진 이진트리
     else{

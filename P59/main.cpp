@@ -9,6 +9,7 @@
 #include <stdio.h>
 //부분집합(DFS 완전탐색)
 int n, ch[11];
+
 void DFS(int L){
     int i;
     if(L==n+1){//N=3일때 이진트리의 레벨L이 4까지 있다.(L=4인 D(4)가 종착지점)
@@ -30,5 +31,6 @@ void DFS(int L){
 int main(int argc, const char * argv[]) {
     scanf("%d", &n);
     DFS(1);
+    
     return 0;
 }
