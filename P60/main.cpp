@@ -13,7 +13,7 @@ bool flag=false;
 void DFS(int L, int sum){//sum: 레벨 별 원소의 누적값)
     if((total/2)<sum) return;//원소들의 총 합의 절반보다 부분집합의 합이 크다면 정답이 될 수 없으므로 종료시킨다.(시간단축)
     if(flag==true) return;//두 부분집합의 합이 같으면 return(넘어올 재귀함수들이 바로 종료된다)
-    if(L==n+1){
+    if(L==n+1){//레벨(L)을 n까지 처리하고 n+1이될때 종료
         if(sum==(total-sum)){// [누적값 계산에 포함시킨 원소들의 합sum]과 [포함되지 않은 나머지 부분집합의 합 total-sum]이 같을 경우
             flag=true;
         }
