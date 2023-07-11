@@ -8,16 +8,25 @@
 
 #include <stdio.h>
 //특정 수 만들기(DFS 완전탐색)
-int n, m, a[11], count=0;
+
+int n, m, a[11], count=0, path[11];
+//원소정보출력하고싶을때 path로 추출
 void DFS(int L, int res){
     if(L==n+1){
         if(res==m){
             count++;
+            for(int i=1;i<=n;i++){
+                printf("%d ", path[i]);//원소정보출력
+            }
+            puts("");
         }
     }
     else{
+        path[L]=a[L];
         DFS(L+1, res+a[L]);//+로 참여
+        path[L]=-a[L];
         DFS(L+1, res-a[L]);//-로 참여
+        path[L]=0;
         DFS(L+1, res);//미참여원소
     }
 }
