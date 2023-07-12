@@ -9,6 +9,7 @@
 #include <stdio.h>
 //병합정렬(분할 정복)
 int data[10], tmp[10];
+
 void divide(int lt, int rt){
     int mid;
     int p1, p2, p3;
