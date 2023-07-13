@@ -23,7 +23,7 @@ int main(int argc, const char * argv[]) {
         for(j=1; j<=n; j++){
             printf("%d ", map[i][j]);
         }
-        printf("\n");
+        printf("\n");//puts("")
     }
     return 0;
 }
