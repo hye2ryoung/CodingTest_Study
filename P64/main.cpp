@@ -9,7 +9,6 @@
 #include <stdio.h>
 //경로 탐색(DFS)
 int map[21][21], ch[21], cnt=0, n;
-
 void DFS(int v){
     int i;
     if(v==n){
@@ -40,3 +39,4 @@ int main(int argc, const char * argv[]) {
     printf("%d\n", cnt);
     return 0;
 }
+
