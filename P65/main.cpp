@@ -12,7 +12,6 @@ int map[10][10], ch[10][10];
 int dx[4]={-1,0,1,0};//방향배열 dx
 int dy[4]={0,1,0,-1};//방향배열 dy
 int cnt=0;
-
 void DFS(int x, int y){
     int i, xx, yy;
     if(x==7 && y==7){//도착점에도달하면 경로 카운팅
@@ -33,7 +32,7 @@ void DFS(int x, int y){
         }
     }
 }
-int main(int argc, const char * argv[]) {
+int main(int argc, const char * argv[]){
     int i,j;
     for(i=1;i<=7;i++){
         for(j=1;j<=7;j++){
