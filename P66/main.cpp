@@ -12,7 +12,6 @@ using namespace std;
 //경로 탐색(방향그래프 인접 리스트:used Vector)
 int ch[21], cnt=0, n;
 vector<int> map[21];//벡터 생성
-
 void DFS(int v){
     int i;
     if(v==n){
@@ -30,7 +29,6 @@ void DFS(int v){
         }
     }
 }
-
 int main(int argc, const char * argv[]) {
     int m, i, a, b;//a(출발점)b(도착점)
     scanf("%d %d", &n, &m);
