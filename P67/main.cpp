@@ -9,7 +9,6 @@
 #include <stdio.h>
 //최소비용(그래프 DFS)
 int map[21][21], ch[21], cost=2147000000, n;
-
 void DFS(int v, int sum){
     int i;
     if(v==n){
@@ -28,7 +27,6 @@ void DFS(int v, int sum){
         }
     }
 }
-
 int main(int argc, const char * argv[]) {
     int m, i, a, b, c;//a(출발점)b(도착점)c(가중치)
     scanf("%d %d", &n, &m);
@@ -42,3 +40,4 @@ int main(int argc, const char * argv[]) {
     printf("%d\n", cost);
     return 0;
 }
+
