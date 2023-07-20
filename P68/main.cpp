@@ -9,6 +9,7 @@
 #include <stdio.h>
 #include <vector>
 using namespace std;
+
 //최소 비용(DFS : 가중치 방향그래프 인접리스트)
 int ch[21], cost=2147000000, n;
 // <pair<> > 한 칸 띄는 이유 : >>쉬프트연산과 유사하여 에러날수있으므로 > >한칸 띈다.
@@ -29,7 +30,7 @@ void DFS(int v, int sum){
     else{
         for(i=0;i<map[v].size();i++){
             if(ch[map[v][i].first]==0){
-                //가중치의 값이0보다 크고 방문하려는 연결노드가 아직방문되지않았다면(0)
+                //방문하려는 연결노드가 아직방문되지않았다면(0)
                 ch[map[v][i].first]=1;//방문체크
                 DFS(map[v][i].first, sum+map[v][i].second);//v에연결된 i번노드와 가중치의 누적값을 DFS에 돌린다(경로가 뻗어나가야 하니까)
                 ch[map[v][i].first]=0;//v에연결된i노드의 방문체크를 다시 0으로 푼다(정점n에 도달해서 경로를카운팅하고나면 스택에서 빠지기 전에 해당정점 방문을 초기화해야 하므로)
@@ -37,7 +38,6 @@ void DFS(int v, int sum){
         }
     }
 }
-
 int main(int argc, const char * argv[]) {
     int m, i, a, b, c;//a(출발점)b(도착점)c(가중치)
     scanf("%d %d", &n, &m);
@@ -53,3 +53,4 @@ int main(int argc, const char * argv[]) {
     printf("%d\n", cost);
     return 0;
 }
+
