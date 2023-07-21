@@ -14,6 +14,7 @@ using namespace std;
 int Q[100], front=-1, back=-1, ch[10];
 //큐에 back으로 자료를 넣고, front로 빼낸다(큐 : 선입선출)
 vector<int> map[10];
+
 int main(int argc, const char * argv[]) {
     int i, a, b, x;
     for(i=1; i<=6; i++){
