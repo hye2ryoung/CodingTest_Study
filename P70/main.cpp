@@ -11,7 +11,6 @@
 #include <queue>
 using namespace std;
 //그래프 최단거리(BFS)
-
 int ch[30], dis[30];//distance1차원배열 : 1번정점에서 각 정점까지의 최소 간선의 개수 기록
 int main(int argc, const char * argv[]) {
     int n, m, a, b, x, i;
@@ -39,6 +38,5 @@ int main(int argc, const char * argv[]) {
     for(i=2; i<=n; i++){
         printf("%d : %d\n", i, dis[i]);
     }
-    
     return 0;
 }
