@@ -12,6 +12,7 @@
 #include <queue>
 using namespace std;
 //송아지 찾기(BFS: 상태트리탐색)
+
 int ch[10001], d[3]={1, -1, 5};//3가지로 뻗어나갈 방향배열 d를 잡는다
 int main(int argc, const char * argv[]) {
     int s, e, x, pos, i;
